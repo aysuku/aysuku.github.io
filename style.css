@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* webページ全体に適用 */
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+h1 {
+  color: #44110e;
+  font-size: 26px;
+  border-bottom: 1px solid #44110e;
+  margin: 20px 0 30px 0;
+  padding: 10px 10px 10px 10px;
+}
+
+a:link {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #609;
+}
+
+a:hover {
+  color: #1a0dab;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1a0bab;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+nav ul {
+  margin: 0 0 0;
+  padding: 10px 30px 10px 30px;
+  background-color: #44110e;
+}
+
+nav ul li a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: #ebe1bb;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #44110e;
+  margin-top: 30px;
+  padding: 20px 0 20px 0;
+  color: #44110e;
+}
+
+.anime_item {
+  padding: 3px;
+  margin: 0 0 0 0;
+}
+
+/* detail.html */
+.float img {
+  float: left;
+  padding-right: 1em;
+  margin-bottom: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+table.info {
+  border-collapse: collapse;
+  border: 1px solid #44110e;
+}
+table.info th, table.info td {
+  padding: 8px 8px 8px 8px;
+  border: 1px solid #44110e;
+  text-align: left;
+  align-items: center;
+}
+table.info th {
+  background-color: #ac724b;
+  color: #ebe1bb;
+}
+
+.character_block {
+  overflow: hidden;
+}
+
+.character_left {
+  float: left;
+  width: 360px;
+  margin-right: 20px;
+}
+
+.character_right {
+  float: left;
+  width: 900px;
+}
+.character_right h3 {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #442220;
+}
+.character_right p {
+  font-size: 16px;
+}
+
+table.character_all {
+  border: none;
+  border-collapse: collapse;
+}
+table.character_all td.photo {
+  padding: 0 10px 15px 0;
+}
+
+form {
+  width: 600px;
+  margin-left: 20px;
+}
+form table.contact {
+  width: 600px;
+  border-collapse: collapse;
+  border: 1px solid #aaa;
+  margin: 10px 0 20px 0;
+}
+form table.contact th, form table.contact td {
+  border: 1px solid #aaa;
+  text-align: center;
+  align-items: center;
+  padding: 8px 8px 8px 8px;
+}
+form table.contact th input[type=text], form table.contact th input[type=email], form table.contact td input[type=text], form table.contact td input[type=email] {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+}
+form table.contact th input[type=email], form table.contact td input[type=email] {
+  width: 300px;
+}
+form table.contact th textarea, form table.contact td textarea {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 160px;
+  font-size: 15px;
+}
+form table.contact tr .question {
+  margin-left: 10px;
+}
+form .sub_button {
+  text-align: center;
+}
+form .sub_button .submit_btn {
+  border: 1px solid #bbb0af;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: #ac724b;
+  color: #ebe1bb;
+}
